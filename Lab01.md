@@ -7,31 +7,21 @@ Users communicate with the kernel through a program known as the shell. The shel
 
 
 # Unix Architecture
-1. kernel
-2. shell
-3. commands and utlities
-4. files and directories
+- **kernel** : The kernel is the heart of the operating system. It interacts with the hardware and most of the tasks like memory management, task scheduling and file management.
 
 
+- **shell** : The shell is the utility that processes your requests. When you type in a command at your terminal, the shell interprets the command and calls the program that you want. The shell uses standard syntax for all commands. 
 
-# Kernel − The kernel is the heart of the operating system. It interacts with the hardware and most of the tasks like memory management, task scheduling and file management.
+- **commands and utlities** : There are various commands and utilities which you can make use of in your day to day activities. cp, mv, cat and grep, etc. are few examples of commands and utilities. 
 
+- **files and directories** : all the data of unix is organized into files, all the files are then organized into the directries. these directories are further organized into a tree-like structure called the file system
 
-# Shell − The shell is the utility that processes your requests. When you type in a command at your terminal, the shell interprets the command and calls the program that you want. The shell uses standard syntax for all commands. 
-
-# Commands and Utilities − There are various commands and utilities which you can make use of in your day to day activities. cp, mv, cat and grep, etc. are few examples of commands and utilities. 
-
-# Files and Directories − all the data of unix is organized into files, all the files are then organized into the directries. these directories are further organized into a tree-like structure called the file system
+-  It is multi-programming, multi-user operating system, it means the same system can be used by different users with different access right and simulteneosly many application can run on it
 
 
 
 
-# it is multi-programming, multi-user operating system, it means the same system can be used by different users with different access right and simulteneosly many application can run on it
-
-
-
-
-# Characterstics
+### Characterstics
 - it can work on different type of hardware, so it is portable
 - linux is an open source, so it free to use and users can also work on enhancing features of the linux operating system
 - it is multi user operating system
@@ -39,10 +29,7 @@ Users communicate with the kernel through a program known as the shell. The shel
 - linux is multi-programming as multiple application can be run at the same time
 
 
-
-
-
-# Advantages
+### Advantages
 - linux is compatiable with large number of file formats
 - linux is free of cost 
 - it is enhancing day by day 
@@ -52,18 +39,14 @@ Users communicate with the kernel through a program known as the shell. The shel
 - no anti virus software is needed to be installed in linux
 
 
-
-# Disadvantages
+### Disadvantages
 - linux does not provide some hardware drivers 
 - command line interface of linux
 - some graphic tools are not available for linux
 - linux does not have standard version 
 
 
-
-
-
-# Linux Distribution
+### Linux Distribution
 - many linux distributions are available to meet just about any computing requirement you could have. most distribution are customized for  specific user group such as business user, graphic designer, gamer, software developers etc
 
 the different linux distribution are often divided into 3 categories
@@ -72,16 +55,14 @@ the different linux distribution are often divided into 3 categories
 - liveCD test distribution
 
 
+### Linux vs Unix
+**Linux** - it is an operating system it is an open source software that is completely free to use, it is used for computer hardware and software, game development, mainframes, etc. it can run various client programs
 
-
-# Linux vs Unix
-Linux - it is an operating system it is an open source software that is completely free to use, it is used for computer hardware and software, game development, mainframes, etc. it can run various client programs
-
-Unix - it is a portable multi-tasking, multi-user operting system developed by At&T, it is used in web servers, workstation and PCs, many busiess application are accessible on it, it is used widely for commercial use
+**Unix** - it is a portable multi-tasking, multi-user operting system developed by At&T, it is used in web servers, workstation and PCs, many busiess application are accessible on it, it is used widely for commercial use
 
 
 
-# Setup
+### Setup
 - Cloud
 - VirtualBox or vmware
 - Docker
@@ -115,14 +96,14 @@ after install restart the system
 > Ubuntu
 
 
-# Linux Set environment variables
+## Linux Set environment variables
 the envirnment variables are dynamic values that are stored within system and used by application launched in shell or sub shell
 
 these variables have a name and their respective values
 
 
 
-# Common envirnment variables
+## Common envirnment variables
 - path
 - user
 - home
@@ -130,7 +111,7 @@ these variables have a name and their respective values
 - env
 
 
-# How to set environment variables in Linux
+## How to set environment variables in Linux
 ```run
 export NAME=VALUE
 
@@ -151,7 +132,7 @@ export path=$path:/home/jdk/bin/
 > env
 ```
 
-# removing an envirnment variable
+## removing an envirnment variable
 ```
 unset varibale_name
 unset name
@@ -159,7 +140,7 @@ $echo name
 ```
 
 
-# Linux export commands
+## Linux export commands
 ```
 export 
 ```
